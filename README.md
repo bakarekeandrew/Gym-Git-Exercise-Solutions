@@ -19,15 +19,12 @@ Changes to be committed:
         new file:   trial.html
 
 gymubutwari@Ubutwaris-iMac Git-Exercise % git branch -M master 
-gymubutwari@Ubutwaris-iMac Git-Exercise % git status
-On branch master
-
-No commits yet
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   trial.html
-
+gymubutwari@Ubutwaris-iMac Git-Exercise % git branch -m master main
+gymubutwari@Ubutwaris-iMac Git-Exercise % git branch    
+* main
+gymubutwari@Ubutwaris-iMac Git-Exercise % git branch -m main master
+gymubutwari@Ubutwaris-iMac Git-Exercise % git branch
+* master
 gymubutwari@Ubutwaris-iMac Git-Exercise % git commit -m "first exercise"
 [master (root-commit) a324dcb] first exercise
  Committer: Gym Ubutwari <gymubutwari@Ubutwaris-iMac.local>
@@ -64,13 +61,6 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/bakarekeandrew/Gym-Git-Exercise-Solutions.git
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
-gymubutwari@Ubutwaris-iMac Git-Exercise % git checkout main
-error: pathspec 'main' did not match any file(s) known to git
-gymubutwari@Ubutwaris-iMac Git-Exercise % git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-nothing to commit, working tree clean
 gymubutwari@Ubutwaris-iMac Git-Exercise % git checkout master
 Already on 'master'
 Your branch is up to date with 'origin/master'.
@@ -80,13 +70,13 @@ gymubutwari@Ubutwaris-iMac Git-Exercise % git checkout dev
 Already on 'dev'
 gymubutwari@Ubutwaris-iMac Git-Exercise % git checkout -b test
 Switched to a new branch 'test'
-gymubutwari@Ubutwaris-iMac Git-Exercise % git status
-On branch test
-nothing to commit, working tree clean
 gymubutwari@Ubutwaris-iMac Git-Exercise % git checkout dev
 Switched to branch 'dev'
-gymubutwari@Ubutwaris-iMac Git-Exercise % git checkout -d test
-HEAD is now at a324dcb first exercise
-gymubutwari@Ubutwaris-iMac Git-Exercise % ls
-trial.html
+gymubutwari@Ubutwaris-iMac Git-Exercise % git branch -d test
+Deleted branch test (was a324dcb).
+gymubutwari@Ubutwaris-iMac Git-Exercise % git branch
+* dev
+  master
 gymubutwari@Ubutwaris-iMac Git-Exercise % 
+
+```
