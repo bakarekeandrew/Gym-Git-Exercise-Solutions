@@ -10,7 +10,7 @@ Initialized empty Git repository in /Users/gymubutwari/Documents/thegym/Git-Exer
 gymubutwari@Ubutwaris-iMac Git-Exercise % git add .
 gymubutwari@Ubutwaris-iMac Git-Exercise % git add .
 gymubutwari@Ubutwaris-iMac Git-Exercise % git status        
-On branch main
+On branch master
 
 No commits yet
 
@@ -18,7 +18,6 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   trial.html
 
-gymubutwari@Ubutwaris-iMac Git-Exercise % git branch -M master 
 gymubutwari@Ubutwaris-iMac Git-Exercise % git branch -m master main
 gymubutwari@Ubutwaris-iMac Git-Exercise % git branch    
 * main
