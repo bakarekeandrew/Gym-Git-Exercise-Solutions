@@ -45,9 +45,6 @@ gymubutwari@Ubutwaris-iMac Git-Exercise % git remote add origin https://github.c
 gymubutwari@Ubutwaris-iMac Git-Exercise % git status
 On branch master
 nothing to commit, working tree clean
-gymubutwari@Ubutwaris-iMac Git-Exercise % git remote -v
-origin  https://github.com/bakarekeandrew/Gym-Git-Exercise-Solutions.git (fetch)
-origin  https://github.com/bakarekeandrew/Gym-Git-Exercise-Solutions.git (push)
 gymubutwari@Ubutwaris-iMac Git-Exercise % git push -u origin master
 Username for 'https://github.com': bakarekeandrew
 Password for 'https://bakarekeandrew@github.com': 
